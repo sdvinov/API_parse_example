@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--Sergej Dvinov
+	August 24th
+-->
+<html>
+<head>
+<title>Weather API App</title>
+  
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav id="totop"> <!-- navigation -->
+    <ul>
+      <li><a href="#anchor1">Current Condition</a></li><!--
+      --><li><a href="#anchor2">1-day Hourly Forecast</a></li><!--
+      --><li><a href="#anchor3">7-day Forecast</a></li>
+    </ul>
+  </nav> <!-- navigation ends -->
+
+<div id="container">
+  <header> 
+      <h1>Weather API App</h1>
+  </header>
+
+    <h2>Current Conditions</h2>
+    <span class="anchor" id="anchor1"></span> <!-- anchor -->
+    <div id="current"></div> <!-- current conditions -->
+
+    <h2>Hourly 1-day Forecast</h2>
+    <span class="anchor" id="anchor2"></span> <!-- anchor -->
+    <div id="hourly"></div> <!-- hourly forecast -->
+  
+    <h2>7-day Forecast</h2>
+    <span class="anchor" id="anchor3"></span> <!-- anchor -->
+    <div id="week"></div><!-- week forecast -->
+
+    <div id="totop-btn"><a href="#totop">To Top</a></div> <!-- To Top button -->
+  
+</div><!--Closes Container-->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
